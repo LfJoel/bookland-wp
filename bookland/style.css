@@ -1,0 +1,295 @@
+/*
+Theme name:bookland
+Text Domain:bookland
+Version:1.0
+Description:
+Tags:Transparent NavMenu Top
+Author:JOEL L F
+
+*/
+.navbar {
+    height: 100px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: normal !important;
+    text-decoration: none;
+}
+
+ header a {
+    color: rgb(0, 0, 0)!important ;
+    font-weight: normal !important;
+    text-decoration: none!important ;
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(1.532px 1.286px 0.5px rgba(35, 31, 32, 0.05));
+}
+
+@media(max-width: 991px) {
+    .navbar-nav {
+        border-radius: 10px;
+        background-color: #ffffff3d;
+        align-items: center;
+        padding: 5px;
+    }
+
+    header a{
+        color: rgb(0, 0, 0) !important;
+    }
+
+}
+
+.purchase {
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: var(--bs-border-radius);
+    border: 1px solid;
+}
+
+.seller-quatation {
+    font-size: 72px;
+    line-height: 32px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+
+.seller-p {
+    text-align: justify;
+    color: gray;
+
+    font-size: 20px;
+    line-height: 32px;
+    color: #959595;
+    font-weight: 250;
+    font-style: italic;
+    font-family: "Roboto";
+}
+
+.choices {
+
+
+    font-size: 42px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+    filter: drop-shadow(3.064px 2.571px 0px rgba(35, 31, 32, 0.1));
+}
+
+.titles {
+
+    height: 54px;
+    font-size: 42px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #3f3f3f;
+    font-family: "Poppins";
+}
+
+.background-icons {
+    background-position: center right;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: auto;
+}
+.background-icons-left{
+    background-position: center left;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: auto;
+}
+
+.img_class {
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg-image-button {
+    background-image: url('/wp-content/themes/bookland/assets/images/google.png') !important;
+    background-position: center;
+}
+
+.fw-light {
+    text-align: left;
+    font-size: 42px;
+    line-height: 52px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    filter: drop-shadow(3.064px 2.571px 0px rgba(35, 31, 32, 0.1));
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fad400;
+    --bs-btn-border-color: #fad400;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fad400;
+    --bs-btn-hover-border-color: #fad400;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fad400;
+    --bs-btn-active-border-color: #fad400;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ccc9ba;
+    --bs-btn-disabled-bg: #fad400;
+    --bs-btn-disabled-border-color: #fad400;
+}
+
+.btn {
+
+    --bs-btn-padding-y: 0.6rem !important;
+
+}
+
+.wrapper img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+@media(max-width: 1000px) {
+    .wrapper {
+        display: none;
+    }
+
+    .girl {
+        display: none;
+    }
+}
+
+.seller {
+    background-color: #dfdfdf;
+}
+
+.background {
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+.profile-pic {
+    height: 50px;
+    border: 1px solid gray;
+    width: 50px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.wrapper2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.card-body {
+    border: 1px solid white;
+    border-radius: 5PX;
+    box-shadow: 2px 1px #cccbcb;
+    padding: 5px;
+}
+
+.divider {
+    flex-grow: 1;
+}
+
+@media(max-width: 600px) {
+    .card-track {
+        align-items: unset !important;
+    }
+}
+
+@media(max-width: 900px) {
+    .divider {
+        display: none;
+    }
+
+    .wrapper2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.left,
+.right,
+.center {
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 2px #dddddd;
+}
+
+
+
+.transbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.6;
+
+    border-radius: 6px;
+    background-color: #ffffff4d;
+
+}
+
+.achivement-icons {
+    background-color: #ff8f00;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+
+}
+
+.doller {
+
+    width: 375px;
+    height: 78px;
+    font-size: 68px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+    filter: drop-shadow(3.064px 2.571px 0px rgba(35, 31, 32, 0.1));
+}
+
+footer {
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: white;
+    text-align: var(--bs-body-text-align);
+    background-color:rgb(41, 41, 41);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+footer a{
+    color:white;
+}
+
+footer h5 {
+    font-size: 1rem !important;
+}
